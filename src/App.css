@@ -1,5 +1,24 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+}
+
+h1 {
+  text-align: center;
+  color: bisque;
+}
+
 .App {
   text-align: center;
+}
+
+button {
+  width: 70px;
+  font-size: 18px;
+  padding: 10px;
+  border: 2px solid #000000;
+  font-weight: bold;
+  border-radius: 6px;
 }
 
 .App-logo {

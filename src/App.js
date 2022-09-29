@@ -1,19 +1,14 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
-//Komponenter
 import { Headline } from "./Components/Headline";
 import { Link } from "./Components/Link";
-//Kortstokken
-import cardDeck from "./Data/data.json";
+import cardDeck from "./Components/data.json";
 
 function App() {
-  //Dealer
   const [dealerCards, setDealerCards] = useState([]);
   const [dealerScore, setDealerScore] = useState(0);
-  //User
   const [userCards, setUserCards] = useState([]);
   const [userScore, setUserScore] = useState(0);
-  //Game
   const [startGame, setStartGame] = useState(false);
   const [gameOver, setGameOver] = useState(false);
 
@@ -62,8 +57,6 @@ function App() {
     calculateSumDealer(dealerCards);
   }, [dealerCards]);
 
-  //BUTTONS
-  //Dele ut fra kortstokken til spillerne
   const clickDeal = () => {
     cardDeck = cardDeck.sort(() => Math.random() - 0.5);
     dealerDrawCard();
@@ -99,32 +92,30 @@ function App() {
     let dealerOnHand = [...dealerCards];
 
     if (totalScoreDealer > 21) {
-      return <div>Jeg har vunnet</div>;
+      return <div>Winner, winner - Chicken Dinner!</div>;
     } else if (totalScoreDealer > calculate(userCards)) {
-      return <div>Dealer har vunnet</div>;
+      return <div>Dealer won</div>;
     } else if (calculate(userCards) > 21) {
-      return <div>Dealer har vunnet</div>;
+      return <div>You lost</div>;
     } else {
-      return <div>Jeg har vunnet</div>;
+      return <div>$$$$$</div>;
     }
   };
 
-  //Trekker et kort fra bunken
-  //User
+
   const userDrawCard = () => {
     let card = cardDeck.pop();
     userCards.push(card);
     setUserCards([...userCards]);
   };
 
-  //Dealer
+
   const dealerDrawCard = () => {
     let card = cardDeck.pop();
     dealerCards.push(card);
     setDealerCards([...dealerCards]);
   };
 
-  //Vise dealer kort
   const showDealerCards = () => {
     if (dealerCards.length === 0) {
       return <div>Dealer har ingen kort</div>;
@@ -138,7 +129,6 @@ function App() {
     );
   };
 
-  //Viser brukers kort
   const showUserCards = () => {
     if (userCards.length === 0) {
       return <p>Du har ingen kort</p>;
@@ -164,21 +154,24 @@ function App() {
   saveScore();
   getScore();
 
-  //JSX
   return (
     <div className="App">
       <Headline />
 
       <button onClick={() => clickDeal()}>Deal</button>
+      <br>
+      </br>
+      <br>
+      </br>
       <button onClick={() => clickHit()}>Hit</button>
       <button onClick={() => clickStand()}>Stand</button>
 
       <div className="dealerOnHand">Dealer cards: {showDealerCards()}</div>
       <p>Score dealer: {dealerScore}</p>
 
-      <p>***********************</p>
+      <p>______________________</p>
       <div>{whoWon()}</div>
-      <p>***********************</p>
+      <p>______________________</p>
 
       <div className="userOnHand">Your cards:{showUserCards()}</div>
       <p>Your score: {userScore}</p>

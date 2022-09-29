@@ -4,7 +4,7 @@ export class Headline extends Component {
   render() {
     return (
       <div>
-        <h1>Velkommen til Blackjack</h1>
+        <h1>Welcome to Cintani's Blackjack Game</h1>
       </div>
     );
   }

@@ -1,210 +1,210 @@
 [
   {
     "value": "A",
-    "suit": "SPADES"
+    "suit": "♥"
   },
   {
     "value": "A",
-    "suit": "DIAMONDS"
+    "suit": "♦"
   },
   {
     "value": "A",
-    "suit": "CLUBS"
+    "suit": "♣"
   },
   {
     "value": "A",
-    "suit": "HEARTS"
+    "suit": "♥"
   },
   {
     "value": "2",
-    "suit": "SPADES"
+    "suit": "♠"
   },
   {
     "value": "2",
-    "suit": "DIAMONDS"
+    "suit": "♦"
   },
   {
     "value": "2",
-    "suit": "CLUBS"
+    "suit": "♣"
   },
   {
     "value": "2",
-    "suit": "HEARTS"
+    "suit": "♥"
   },
   {
     "value": "3",
-    "suit": "SPADES"
+    "suit": "♠"
   },
   {
     "value": "3",
-    "suit": "DIAMONDS"
+    "suit": "♦"
   },
   {
     "value": "3",
-    "suit": "CLUBS"
+    "suit": "♣"
   },
   {
     "value": "3",
-    "suit": "HEARTS"
+    "suit": "♥"
   },
   {
     "value": "4",
-    "suit": "SPADES"
+    "suit": "♠"
   },
   {
     "value": "4",
-    "suit": "DIAMONDS"
+    "suit": "♦"
   },
   {
     "value": "4",
-    "suit": "CLUBS"
+    "suit": "♣"
   },
   {
     "value": "4",
-    "suit": "HEARTS"
+    "suit": "♥"
   },
   {
     "value": "5",
-    "suit": "SPADES"
+    "suit": "♠"
   },
   {
     "value": "5",
-    "suit": "DIAMONDS"
+    "suit": "♦"
   },
   {
     "value": "5",
-    "suit": "CLUBS"
+    "suit": "♣"
   },
   {
     "value": "5",
-    "suit": "HEARTS"
+    "suit": "♥"
   },
   {
     "value": "6",
-    "suit": "SPADES"
+    "suit": "♠"
   },
   {
     "value": "6",
-    "suit": "DIAMONDS"
+    "suit": "♦"
   },
   {
     "value": "6",
-    "suit": "CLUBS"
+    "suit": "♣"
   },
   {
     "value": "6",
-    "suit": "HEARTS"
+    "suit": "♥"
   },
   {
     "value": "7",
-    "suit": "SPADES"
+    "suit": "♠"
   },
   {
     "value": "7",
-    "suit": "DIAMONDS"
+    "suit": "♦"
   },
   {
     "value": "7",
-    "suit": "CLUBS"
+    "suit": "♣"
   },
   {
     "value": "7",
-    "suit": "HEARTS"
+    "suit": "♥"
   },
   {
     "value": "8",
-    "suit": "SPADES"
+    "suit": "♠"
   },
   {
     "value": "8",
-    "suit": "DIAMONDS"
+    "suit": "♦"
   },
   {
     "value": "8",
-    "suit": "CLUBS"
+    "suit": "♣"
   },
   {
     "value": "8",
-    "suit": "HEARTS"
+    "suit": "♥"
   },
   {
     "value": "9",
-    "suit": "SPADES"
+    "suit": "♠"
   },
   {
     "value": "9",
-    "suit": "DIAMONDS"
+    "suit": "♦"
   },
   {
     "value": "9",
-    "suit": "CLUBS"
+    "suit": "♣"
   },
   {
     "value": "9",
-    "suit": "HEARTS"
+    "suit": "♥"
   },
   {
     "value": "10",
-    "suit": "SPADES"
+    "suit": "♠"
   },
   {
     "value": "10",
-    "suit": "DIAMONDS"
+    "suit": "♦"
   },
   {
     "value": "10",
-    "suit": "CLUBS"
+    "suit": "♣"
   },
   {
     "value": "10",
-    "suit": "HEARTS"
+    "suit": "♥"
   },
   {
     "value": "J",
-    "suit": "SPADES"
+    "suit": "♠"
   },
   {
     "value": "J",
-    "suit": "DIAMONDS"
+    "suit": "♦"
   },
   {
     "value": "J",
-    "suit": "CLUBS"
+    "suit": "♣"
   },
   {
     "value": "J",
-    "suit": "HEARTS"
+    "suit": "♥"
   },
   {
     "value": "Q",
-    "suit": "SPADES"
+    "suit": "♠"
   },
   {
     "value": "Q",
-    "suit": "DIAMONDS"
+    "suit": "♦"
   },
   {
     "value": "Q",
-    "suit": "CLUBS"
+    "suit": "♣"
   },
   {
     "value": "Q",
-    "suit": "HEARTS"
+    "suit": "♥"
   },
   {
     "value": "K",
-    "suit": "SPADES"
+    "suit": "♠"
   },
   {
     "value": "K",
-    "suit": "DIAMONDS"
+    "suit": "♦"
   },
   {
     "value": "K",
-    "suit": "CLUBS"
+    "suit": "♣"
   },
   {
     "value": "K",
-    "suit": "HEARTS"
+    "suit": "♥"
   }
 ]
